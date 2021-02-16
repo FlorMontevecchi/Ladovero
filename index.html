@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ladovero</title>
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+    
+    <link href="https://file.myfontastic.com/UJ9gNafNC5VymUPMokMGcB/icons.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="icon" href="multimedia/iconoLadovero.ico">
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+
+<body>
+<header>
+<div class="headerArriba">
+    <img class="iconoLugar" src="multimedia/iconoLugar.ico" alt="Icono de localizacion">
+    <div class="direccionHeader"> Av. Eva Perón 3090 </div>
+</div>
+
+<input type="checkbox" id="bar">
+<label for="bar" class="logoResponsive"><img src="multimedia/logoResponsive.png" alt="Icono de cubiertos" height="42em"></label>
+
+<div id="tituloResponsive"><p>Ladovero</p></div>
+
+<nav class="menu">
+    <div class="menuLogo animate__animated animate__tada">
+        <img src="multimedia/logopngBlanco.png" alt="logoLadovero">
+    </div>
+
+    <ul class="menuLista">
+        <li><a href="index.html"> Inicio </a></li>
+        <li><a href="comidas.html"> Comidas </a></li>
+        <li><a href="nosotros.html"> Nosotros </a></li>
+        <li><a href="contacto.html"> Contacto </a></li>
+    </ul>
+    <div class="logosRedesMenu"><a href="https://www.instagram.com/ladovero/?hl=es-la"><img src="multimedia/logoInstagram.png" alt="Instagram" class="logoInstagram"></a>
+        <a href="https://www.facebook.com/ladovero1"><img src="multimedia/logoFacebook.png" alt="Facebook" class="logoFacebook"></a>
+        <a href="https://wa.link/1vwfcf"><img src="multimedia/logoWhatsapp.png" alt="Whatsapp" class="logoWhatsapp"></a>
+    </div>
+</nav>
+
+</header>
+
+<div>
+    <ul>
+    <li class="submenu">
+        <img src="multimedia/logoCarrito.ico" alt="Logo de carrito" class="imgCarrito">
+        <div id="carrito">
+            <table class="listaCarrito">
+                <thead>
+                    <tr>
+                        <td>Imagen</td>
+                        <td>Nombre</td>
+                        <td>Precio</td>
+                        <td>Cantidad</td>
+                        <td>
+                            <thead id="cart">
+                            </thead>
+                        </td>
+                    </tr>
+                </thead>
+                   
+                
+            </table>
+            
+            <a href="#" class="vaciarCarrito">Vaciar Carrito</a>
+
+        </div>    
+    </li>     
+    </ul>
+</div>
+
+<section class="descripcion">
+        <div> <img class="imgDescripcion" src="multimedia/tacos.jpg" alt="Tacos"></div>
+        <div class="textoDescripcion">
+            <h3 class="tituloDescripcion">Expertos en comida casera</h3>
+            <p class="textoDescripcion">Ladovero es un local de comidas rápidas caseras ubicado en Billinghurst, partido de San Martín, Zona Noroeste de Gran Buenos Aires. Nos manejamos con pedidos por Whatsapp o podés visitarnos personalmente. Debido al contexto actual hay que concurrir con barbijo y las mesas disponibles son las que se encuentran afuera.</p>
+        <a href="contacto.html" class="boton botonContacto">Contacto</a>    
+        </div>
+    </div>
+</section>
+
+<section class="especiales">
+    <h2 class="especialesTitulo">Especiales del mes</h2>
+    <div class="container container--flex">
+        <div class="column column--50-25">
+            <img src="multimedia/panchos.jpg" alt="" class="especialesImg">
+            <div class="especialesNombre">Panchos</div>
+            <div class="especialesPrecio">$250</div>
+            <button class="botonComprar" data-id="1">Agregar al carrito</button>
+        </div>
+        <div class="column column--50-25">
+            <img src="multimedia/TartaBrocoli.jpg" alt="" class="especialesImg">
+            <div class="especialesNombre">Tarta de brócoli</div>
+            <div class="especialesPrecio">$300</div>
+            <button class="botonComprar" data-id="2">Agregar al carrito</button>
+        </div>
+        <div class="column column--50-25">
+            <img src="multimedia/lasagna.jpg" alt="" class="especialesImg">
+            <div class="especialesNombre">Lasagna</div>
+            <div class="especialesPrecio">$350</div>
+            <button class="botonComprar" data-id="3">Agregar al carrito</button>
+        </div>
+        <div class="column column--50-25">
+            <img src="multimedia/croquetas.jpg" alt="" class="especialesImg">
+            <div class="especialesNombre">Croquetas de verdura</div>
+            <div class="especialesPrecio">$320</div>
+            <button class="botonComprar" data-id="4">Agregar al carrito</button>
+        </div>
+    </div>
+</section>
+
+
+<footer>
+    <p class="copyRight">© 2020 Ladovero | Todos los derechos reservados</p>
+</footer>
+<script src="./js/jquery.min.js"></script>
+<script src="./js/functions.js"></script>
+<script src="./js/storage.js"></script>
+<script src="./js/dom.js"></script>
+</body>
+</html>
+
